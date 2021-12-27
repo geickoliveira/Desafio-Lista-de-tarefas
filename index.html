@@ -6,31 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do List</title>
     <link href="style.css", rel="stylesheet">
-
+    
 </head>
 <body>
     <header>
-        <h1 align="center">To-do List</h1>
+        <h1>To do List</h1>
     </header>
 
     <main>
-        <div class="conteiner">
+        <div class="container">
 
-            <input type="text", id="input">
-            <button type="button", id="save", class="button", value="save", onclick="newItem()" >SAVE</button>
-            <button type="reset", id="clear", class="button", value="clear", onclick="clear()">RESET</button>
+            <input type="text" id="input">
+            <button id="save" class="button">Add</button>
+            <button id="clear" class="button">Clear</button>
         
-        <div id="ulist">
-            <ul class= "list"></ul>
-
+        <div id="toDoContainer">
+            <ul id="toDoList">
+        
+        </ul>
         </div>
+        
         </div>
 
 
 
 
     </main>
-
+    <script src="script.js"></script>
 
 </body>
 </html>

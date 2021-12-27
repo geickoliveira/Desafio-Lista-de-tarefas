@@ -1,57 +1,58 @@
-*{
+body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 24px;
-    color: #FFF5F0;
-    padding: 0;
-    margin: 0;
-    background-color: whitesmoke;
-    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: #56423D;
 }
 
 h1{
     font-size: 300%;
+    color: chartreuse;
+    background-color: #582B39;
     padding: 10px;
-    position: relative;
-    background-color: #C34A36;
+    border:1px solid chartreuse;
     border-radius: 12px;
-    display: inline-block;
-
 }
 
-.conteiner{
-    margin-top: 20px;
-    padding: 30px;
-    position: absolute;
-    margin-left: 500px;
-    background-color: #C34A36;
+.container{
+    width: 100%;
+    background-color: #582B39;
+    padding: 10px;
+    border:1px solid chartreuse;
     border-radius: 12px;
+
 }
 
 #input{
-    border-radius: 12px;
-    padding: 10px;
-    color: #56423D;
-    font-weight: bolder;
-}
-
-.button{
-    background-color: #56423D;
-    padding: 5px;
+    width: 500px;
+    height: 40px;
+    border: 1px solid;
     border-radius: 12px;
     font-size: 30px;
     font-weight: bolder;
+    vertical-align: middle;
 }
 
-#ulist{
-    margin-top: 10px;
-    padding: 30px;
-    background-color: #C34A36;
+.button{
+    height: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    border: 1px solid;
     border-radius: 12px;
+    vertical-align: middle;
+    background-color: chartreuse;
 }
 
-.list{
-    list-style: none;
-    background-color: #C34A36;
+#toDoContainer{
+    margin-top: 30px;
+}
+
+#toDoList{
+    list-style:none;
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: chartreuse;
     padding: 10px;
-    color:white
+    color:black
 }
